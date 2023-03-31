@@ -69,7 +69,7 @@ const TestimonialSection = () => {
                 <h2 class=" title-font mt-10 mb-5 font-medium text-3xl text-white">
                   {title}
                 </h2>
-                <p class="leading-relaxed text-white text-lg font-normal">
+                <p class=" text-white text-lg font-normal">
                   {text}
                 </p>
               </div>
@@ -96,7 +96,7 @@ const TestimonialSection = () => {
             {Testimonial.map(({ id, message, name, image }) => (
               <div key={id} class="p-4 md:w-1/3 w-full">
                 <div class="h-full p-8 border border-[#636060]">
-                  <p class="leading-relaxed mb-6">{message}</p>
+                  <p class="text-lg mb-6">{message}</p>
                   <a class="inline-flex items-center" href="/">
                     <img
                       alt="testimonial"
@@ -104,7 +104,7 @@ const TestimonialSection = () => {
                       class="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center"
                     />
                     <span class="flex-grow flex flex-col pl-4">
-                      <span class="title-font font-medium text-gray-900">
+                      <span class="text-xl font-medium text-gray-900">
                         {name}
                       </span>
                     </span>
@@ -115,6 +115,7 @@ const TestimonialSection = () => {
           </div>
         </div>
       </section>
+
       <section class="text-gray-600 body-font">
         <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
           <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
@@ -128,7 +129,7 @@ const TestimonialSection = () => {
               free and open to new and seasoned investors.
             </p>
             <div class="flex justify-center">
-              <button class="ml-4 inline-flex text-white items-center justify-center bg-[#096DD9] border-0 py-2 px-6 focus:outline-none hover:bg-[#027afc] rounded text-lg">
+              <button class="ml- inline-flex text-white items-center justify-center bg-[#096DD9] border-0 py-2 px-6 focus:outline-none hover:bg-[#027afc] rounded text-lg">
                 Invest now{" "}
                 <span className="ml-2">
                   <BsArrowRightShort />
@@ -136,12 +137,13 @@ const TestimonialSection = () => {
               </button>
             </div>
           </div>
-          <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+          <div class=" relative lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
             <img
               class="object-cover object-center rounded"
               alt="hero"
               src={DiverseStudents}
             />
+            <div className="w-36 h-36 absolute -left-8 -bottom-8 -z-40 bg-[#096DD9]"></div>
           </div>
         </div>
       </section>

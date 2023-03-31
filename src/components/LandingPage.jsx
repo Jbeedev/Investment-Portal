@@ -17,9 +17,9 @@ const LandingPage = () => {
       <HeroSection />
 
       <section class="text-gray-600 body-font">
-        <div class="container px-5 py-24 mx-auto">
+        <div class="container px-5 pt-24 mx-auto">
           <div class="flex flex-wrap w-full mb-20 flex-col items-center text-center">
-            <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">
+            <h1 class="sm:text-3xl text-3xl font-medium title-font mb-2 text-gray-900">
               TRUSTED BY
             </h1>
 
@@ -56,8 +56,8 @@ const LandingPage = () => {
 
             <div class="xl:w-1/2 md:w-1/2 p-4">
               <div class=" p-6 ">
-                <h1>Why Invest with TenPlus Lab</h1>
-                <p>
+                <h1 className=" md:text-4xl text-3xl font-semibold">Why Invest with TenPlus Lab</h1>
+                <p className="text-lg my-10">
                   TLIS is revolutionizing battery technology from the ground up
                   with the world’s first AMV Cube Cell, capable of charging from
                   0-100% in less than 15 minutes and providing consistent
@@ -69,7 +69,7 @@ const LandingPage = () => {
                   markets such as box trucks and emergency vehicles with the XP
                   Platform.
                 </p>
-                <button className="inline-flex items-center mt-12 text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
+                <button className="inline-flex font-semibold text-xl items-center text-white bg-[#096DD9] border-0 py-2 px-6 rounded">
                   Invest now{" "}
                   <span className="ml-2">
                     <BsArrowRightShort />
@@ -83,17 +83,17 @@ const LandingPage = () => {
             <div class="container  py-24 mx-auto flex flex-wrap">
               <div class="flex flex-wrap w-full">
                 <div class="lg:w-1/2 md:w-1/2 md:pr-10 md:py-6  ">
-                  <h1>How to Invest</h1>
-                  <p className="pt-5 pb-16">
+                  <h1 className="md:text-4xl text-3xl font-semibold">How to Invest</h1>
+                  <p className="pt-5 pb-16 text-lg">
                     TLIS is revolutionizing battery technology from the ground
                     up with the world’s first AMV Cube Cell, capable of charging
                     from 0-100% in less than 15 minutes and{" "}
                   </p>
-                  <div class="flex relative pb-12">
+                  <div class="flex relative pb-6">
                     <div class="h-full w-10 absolute inset-0 flex items-center justify-center">
                       <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
                     </div>
-                    <div class="flex-shrink-0 w-10 h-10 rounded-full bg-indigo-500 inline-flex items-center justify-center text-white relative z-10">
+                    <div class="flex-shrink-0 w-10 h-10 rounded-full bg-[#096DD9] inline-flex items-center justify-center text-white relative z-10">
                       <svg
                         fill="none"
                         stroke="currentColor"
@@ -107,7 +107,7 @@ const LandingPage = () => {
                       </svg>
                     </div>
                     <div class="flex-grow pl-4">
-                      <h2 class="font-medium title-font text-sm text-gray-900 mb-1 tracking-wider">
+                      <h2 class="font-semibold  text-2xl text-gray-900">
                         Register
                       </h2>
                       <p class="leading-relaxed">
@@ -115,11 +115,11 @@ const LandingPage = () => {
                       </p>
                     </div>
                   </div>
-                  <div class="flex relative pb-12">
+                  <div class="flex relative pb-6">
                     <div class="h-full w-10 absolute inset-0 flex items-center justify-center">
                       <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
                     </div>
-                    <div class="flex-shrink-0 w-10 h-10 rounded-full bg-indigo-500 inline-flex items-center justify-center text-white relative z-10">
+                    <div class="flex-shrink-0 w-10 h-10 rounded-full bg-[#096DD9] inline-flex items-center justify-center text-white relative z-10">
                       <svg
                         fill="none"
                         stroke="currentColor"
@@ -133,7 +133,7 @@ const LandingPage = () => {
                       </svg>
                     </div>
                     <div class="flex-grow pl-4">
-                      <h2 class="font-medium title-font text-sm text-gray-900 mb-1 tracking-wider">
+                      <h2 class="font-semibold text-2xl text-gray-900">
                         Pick an assets
                       </h2>
                       <p class="leading-relaxed">
@@ -142,11 +142,11 @@ const LandingPage = () => {
                       </p>
                     </div>
                   </div>
-                  <div class="flex relative pb-12">
+                  <div class="flex relative pb-6">
                     <div class="h-full w-10 absolute inset-0 flex items-center justify-center">
                       <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
                     </div>
-                    <div class="flex-shrink-0 w-10 h-10 rounded-full bg-indigo-500 inline-flex items-center justify-center text-white relative z-10">
+                    <div class="flex-shrink-0 w-10 h-10 rounded-full bg-[#096DD9] inline-flex items-center justify-center text-white relative z-10">
                       <svg
                         fill="none"
                         stroke="currentColor"
@@ -161,7 +161,7 @@ const LandingPage = () => {
                       </svg>
                     </div>
                     <div class="flex-grow pl-4">
-                      <h2 class="font-medium title-font text-sm text-gray-900 mb-1 tracking-wider">
+                      <h2 class="font-semibold text-2xl text-gray-900">
                         View prototype
                       </h2>
                       <p class="leading-relaxed">
@@ -172,7 +172,7 @@ const LandingPage = () => {
                   </div>
 
                   <div class="flex relative">
-                    <div class="flex-shrink-0 w-10 h-10 rounded-full bg-indigo-500 inline-flex items-center justify-center text-white relative z-10">
+                    <div class="flex-shrink-0 w-10 h-10 rounded-full bg-[#096DD9] inline-flex items-center justify-center text-white relative z-10">
                       <svg
                         fill="none"
                         stroke="currentColor"
@@ -187,7 +187,7 @@ const LandingPage = () => {
                       </svg>
                     </div>
                     <div class="flex-grow pl-4">
-                      <h2 class="font-medium title-font text-sm text-gray-900 mb-1 tracking-wider">
+                      <h2 class="font-semibold text-2xl text-gray-900 ">
                         Invest
                       </h2>
                       <p class="leading-relaxed">

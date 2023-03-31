@@ -7,30 +7,28 @@ import PlayIcon from "../components/assets/images/play_circle_outline.png";
 
 const HeroSection = () => {
   return (
-    <section className="text-white body-font bg-[#01313F]">
-      <div className=" w-full text-white container mx-auto flex flex-1 px-5 py-24 md:flex-row flex-col items-center">
+    <section className="text-white body-font bg-[#01313F] ">
+      <div className="  w-full text-white container mx-auto flex flex-1 px-5 pt-24 md:flex-row flex-col items-cente">
         <div className=" lg:flex-grow md:w-1/2 basis-1/2  lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-          <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium">
+          <h1 className="title-font sm:text-4xl text-6xl font-bold mb-4">
             welcome to tenplus
             <br className="hidden lg:inline-block" />
             labs Investment
-          </h1>Inves
-          <p className="mb-8 leading-relaxed">
+          </h1>
+          <p className="mb-8 text-2xl font-normal md:text-xl ">
             building and refining africa through creativity, innovative
             technology, artificial intelligent.
           </p>
           <div className="flex justify-center">
-            <button className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
+            <button className="inline-flex items-center text-white bg-[#096DD9] border-0 py-2 px-6 focus:outline-none rounded text-lg">
               Invest now
             </button>
             <img src={PlayIcon} alt="" className="w-14 h-14 ml-2" />
-            {/* <button className="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">
-            </button> */}
           </div>
-          <p className="mt-8 leading-relaxed">Investment Summary</p>
 
-          <div className="text-gray-600 body-font">
-            <div className="container px-5 py-24 mx-auto">
+          <div className="">
+            <p className="mt-16 mb-8 text-3xl font-medium leading-relaxed">Investment Summary</p>
+            <div className="pb-24 mx-auto">
               <div className="flex flex-wrap -m-4 text-center">
                 <div className="p-4 sm:w-1/4 w-1/2">
                   <img src={SoftImg} alt="software" />
